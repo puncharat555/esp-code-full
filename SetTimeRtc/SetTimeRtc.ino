@@ -17,7 +17,7 @@ void setup() {
   }
 
   // ตั้งเวลาเองแบบแม่นยำ (แก้เลขตามเวลาจริงของคุณ)
-  rtc.adjust(DateTime(2025, 7, 28, 15, 54, 30));  // <-- ตั้งตรงนี้
+  rtc.adjust(DateTime(2025, 7, 31, 20, 01, 00));  // <-- ตั้งตรงนี้
 
   Serial.println("RTC time manually set");
 }

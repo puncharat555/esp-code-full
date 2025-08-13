@@ -38,7 +38,7 @@ Adafruit_INA219 ina219;
 #define ECHO_PIN   13
 
 #define SLEEP_TIME_US   (50ULL * 1000000ULL)
-
+ // rtc.adjust(DateTime(2025, 8, 5, 0, 50, 0));
 void setup() {
   Serial.begin(115200);
   delay(1000);
